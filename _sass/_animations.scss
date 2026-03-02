@@ -1,0 +1,21 @@
+// Fade-in animation (will only trigger via JS)
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0; /* start hidden */
+  transform: translateY(20px);
+  /* no animation yet */
+}
+
+.fade-in.appear {
+  animation: fadeInUp 1s forwards; /* only runs when 'appear' class is added */
+}

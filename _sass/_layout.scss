@@ -1,0 +1,36 @@
+/* Global section spacing */
+section {
+  padding: 6rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Hero */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .hero-content {
+    margin-bottom: 2rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      margin: 1rem 0;
+      color: $text-muted;
+    }
+    .btn-primary {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+}

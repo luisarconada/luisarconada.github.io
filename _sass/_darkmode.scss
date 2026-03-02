@@ -1,0 +1,43 @@
+body.dark-mode {
+  background: $dark-background;
+  color: $dark-text-primary;
+}
+
+body.dark-mode p {
+  color: $dark-text-secondary;
+}
+
+body.dark-mode .navbar {
+  background: rgba(14,17,22,0.9);
+  border-bottom: 1px solid $dark-border;
+}
+
+body.dark-mode .project-card {
+  border: 1px solid $dark-border;
+}
+
+body.dark-mode .project-card:hover {
+  background: #151A22;
+}
+
+body.dark-mode footer {
+  border-top: 1px solid $dark-border;
+}
+
+body.dark-mode .btn-outline {
+  border: 1px solid $dark-accent;
+  color: $dark-accent;
+}
+
+body.dark-mode .btn-outline:hover {
+  background: $dark-accent;
+  color: white;
+}
+
+body.dark-mode section:not(#hero):nth-of-type(even) {
+  background: #151A22;
+}
+
+body.dark-mode h2::after {
+  background: $dark-accent;
+}
